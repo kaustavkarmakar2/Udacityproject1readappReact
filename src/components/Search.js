@@ -1,7 +1,22 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import * as BooksAPI from ".././BooksAPI";
+import throttle from 'lodash/throttle';
+import List from './list-books';
 class Search extends React.Component{
- 
+  state = { 
+   books:[],
+   query:''
+
+  }
+  execSearched=(query)=>{
+    const search = this.currentSearched = BooksAPI.search(query).then(books =>{
+      //serState only for the current searched result
+      if(this.currentSearched ===search)
+      this.setState({books})
+    })
+
+  }
   updateQuery=(query)=>{
     this.currentSearched=null;
     if(query)
@@ -14,21 +29,21 @@ class Search extends React.Component{
     }
 
 
-  };
-  // componentWillMount(){
-  //   // this.input.focus()
-  //   // this.execSearched=throttle(this.execSearched,1000,{
-  //   //   loading:false,
-  //   //   trailing:true
-  //   // })
-  //   const {query}=this.state
-  //   if(query)
-  //   this.execSearched(query)
+  }
+  componentWillMount(){
+     this.input.focus()
+    this.execSearched=throttle(this.execSearched,1000,{
+      loading:false,
+      trailing:true
+    })
+    const {query}=this.state
+    if(query)
+    this.execSearched(query)
     
-  // }
+  }
   
     render(){
-      const query = this.props.books;
+      const {books,query} = this.state
         return(
             <div className="search-books">
             <div className="search-books-bar">
@@ -51,6 +66,14 @@ class Search extends React.Component{
             </div>
             <div className="search-books-results">
               <ol className="books-grid"></ol>
+              <List books={books.map((searchedBook)=>{
+                const myBook = this.props.books((myBook)=>(myBook.id === searchedBook.id))[0]
+                searchedBook.shelf=myBook ? myBook.shelf : "none"
+                return searchedBook
+              })}
+              onBookShelfChange={this.props.onBookShelfChange}
+              />
+              {console.log(books)}
             </div>
           </div>
             
