@@ -1,20 +1,25 @@
-import React from 'react';
+import React from "react";
 
-
-class List extends React.Component{
-    render(){
-       
-        return(
-
-        <div 
-            className="book-cover" 
-             style={{
-                width: 128, 
+class List extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        {this.props.books.map(book => (
+          <div>
+            <div
+              className="book-cover"
+              style={{
+                width: 128,
                 height: 193,
-               
-            }}
-        ></div>
-        )
-    }
+                backgroundImage: `url(${book.imageLinks.thumbnail}`
+              }}
+            ></div>
+            <h5>{book.title}</h5>
+            <h6>{book.authors}</h6>
+          </div>
+        ))}
+      </React.Fragment>
+    );
+  }
 }
 export default List;
