@@ -10,9 +10,14 @@ class Search extends React.Component {
   };
 
   execSearched = query => {
+    
     const search = (this.currentSearched = BooksAPI.search(query).then(
       books => {
-        //serState only for the current searched result
+        if (this.currentSearched !== search ) {
+          this.setState({ books })
+          console.log("HHHHH")
+        }
+        //setState only for the current searched result
         if (this.currentSearched === search) this.setState({ books });
       }
     ));
@@ -54,13 +59,17 @@ class Search extends React.Component {
           </div>
         </div>
         <div className="search-books-results">
-          <ol className="books-grid"></ol>
+          <ol className=""></ol>
+          <div style={{display: 'flex'}}>
           <List 
+            style={{width:500,height:500,paddingLeft:10,paddingRight:10}}
             // BookSearchAPI is giving inconsistent results
             // Please see
-            books={books ? (books.error === undefined ? books : []) : []}
+            
+            books={books ? (books.error === undefined   ? books : []) : []}
             onBookShelfChange={this.props.onBookShelfChange}
           />
+          </div>
         </div>
       </div>
     );
