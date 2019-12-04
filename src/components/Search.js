@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import * as BooksAPI from "../BooksAPI";
 import throttle from "lodash/throttle";
 import List from "./list-books";
+
 class Search extends React.Component {
   state = {
     books: [],
@@ -38,7 +39,19 @@ class Search extends React.Component {
       loading: false,
       trailing: true
     });
-  }
+  };
+  changeBookShelves = (book, shelf) => {
+    console.log("Hiii", this);
+    BooksAPI.update(book, shelf);
+    this.setState({
+      books: this.state.books.map(b => {
+        return {
+          ...b,
+          shelf: b.id === book.id ? shelf : b.shelf
+        };
+      })
+    });
+  };
 
   render() {
     const { books, query } = this.state;
@@ -59,7 +72,7 @@ class Search extends React.Component {
           </div>
         </div>
         <div className="search-books-results">
-          <ol className=""></ol>
+          
           <div style={{display: 'flex'}}>
           <List 
             style={{width:500,height:500,paddingLeft:10,paddingRight:10}}
@@ -68,6 +81,7 @@ class Search extends React.Component {
             
             books={books ? (books.error === undefined   ? books : []) : []}
             onBookShelfChange={this.props.onBookShelfChange}
+            changeShelf={this.changeBookShelves}
           />
           </div>
         </div>
