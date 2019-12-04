@@ -8,20 +8,6 @@ class List extends React.Component {
     return (
       
       <React.Fragment>
-        {/* {this.props.books.map(book => (
-         
-          <div key={book.id}>
-            <div 
-              style={{
-                width: 128,
-                height: 193,
-                backgroundImage: `url(${book.imageLinks.thumbnail}`
-              }}
-              ></div>
-            <h5>{book.title}</h5>
-            <h6>{book.authors}</h6>
-          </div>
-        ))} */}
         <div className="bookshelf">
             <h2 className="bookshelf-title">{this.props.title}</h2>
             <div className="bookshelf-books">
