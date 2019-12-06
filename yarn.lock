@@ -285,13 +285,13 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-json-strings" "^7.0.0"
 
-"@babel/plugin-proposal-object-rest-spread@7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.0.0":
+"@babel/plugin-proposal-object-rest-spreadForBooks@7.0.0", "@babel/plugin-proposal-object-rest-spreadForBooks@^7.0.0":
   version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0.tgz#9a17b547f64d0676b6c9cecd4edf74a82ab85e7e"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spreadForBooks/-/plugin-proposal-object-rest-spreadForBooks-7.0.0.tgz#9a17b547f64d0676b6c9cecd4edf74a82ab85e7e"
   integrity sha512-14fhfoPcNu7itSen7Py1iGN0gEm87hX/B+8nZPqkdmANyyYWYMY2pjA3r8WXbWVKMzfnSNS0xY8GVS0IjXi/iw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spreadForBooks" "^7.0.0"
 
 "@babel/plugin-proposal-optional-catch-binding@^7.0.0":
   version "7.0.0"
@@ -359,9 +359,9 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-object-rest-spread@^7.0.0":
+"@babel/plugin-syntax-object-rest-spreadForBooks@^7.0.0":
   version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0.tgz#37d8fbcaf216bd658ea1aebbeb8b75e88ebc549b"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spreadForBooks/-/plugin-syntax-object-rest-spreadForBooks-7.0.0.tgz#37d8fbcaf216bd658ea1aebbeb8b75e88ebc549b"
   integrity sha512-5A0n4p6bIiVe5OvQPxBnesezsgFJdHhSs3uFSvaPdMqtsovajLZ+G2vZyvNe10EzJBWWo3AcHGKhAFUxqwp2dw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -621,9 +621,9 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-spread@^7.0.0":
+"@babel/plugin-transform-spreadForBooks@^7.0.0":
   version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-spread/-/plugin-transform-spread-7.0.0.tgz#93583ce48dd8c85e53f3a46056c856e4af30b49b"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-spreadForBooks/-/plugin-transform-spreadForBooks-7.0.0.tgz#93583ce48dd8c85e53f3a46056c856e4af30b49b"
   integrity sha512-L702YFy2EvirrR4shTj0g2xQp7aNwZoWNCkNu2mcoU0uyzMl0XRwDSwzB/xp6DSUFiBmEXuyAyEN16LsgVqGGQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -677,11 +677,11 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-async-generator-functions" "^7.1.0"
     "@babel/plugin-proposal-json-strings" "^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spreadForBooks" "^7.0.0"
     "@babel/plugin-proposal-optional-catch-binding" "^7.0.0"
     "@babel/plugin-proposal-unicode-property-regex" "^7.0.0"
     "@babel/plugin-syntax-async-generators" "^7.0.0"
-    "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spreadForBooks" "^7.0.0"
     "@babel/plugin-syntax-optional-catch-binding" "^7.0.0"
     "@babel/plugin-transform-arrow-functions" "^7.0.0"
     "@babel/plugin-transform-async-to-generator" "^7.1.0"
@@ -705,7 +705,7 @@
     "@babel/plugin-transform-parameters" "^7.1.0"
     "@babel/plugin-transform-regenerator" "^7.0.0"
     "@babel/plugin-transform-shorthand-properties" "^7.0.0"
-    "@babel/plugin-transform-spread" "^7.0.0"
+    "@babel/plugin-transform-spreadForBooks" "^7.0.0"
     "@babel/plugin-transform-sticky-regex" "^7.0.0"
     "@babel/plugin-transform-template-literals" "^7.0.0"
     "@babel/plugin-transform-typeof-symbol" "^7.0.0"
@@ -724,11 +724,11 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-async-generator-functions" "^7.1.0"
     "@babel/plugin-proposal-json-strings" "^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spreadForBooks" "^7.0.0"
     "@babel/plugin-proposal-optional-catch-binding" "^7.0.0"
     "@babel/plugin-proposal-unicode-property-regex" "^7.0.0"
     "@babel/plugin-syntax-async-generators" "^7.0.0"
-    "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spreadForBooks" "^7.0.0"
     "@babel/plugin-syntax-optional-catch-binding" "^7.0.0"
     "@babel/plugin-transform-arrow-functions" "^7.0.0"
     "@babel/plugin-transform-async-to-generator" "^7.1.0"
@@ -752,7 +752,7 @@
     "@babel/plugin-transform-parameters" "^7.1.0"
     "@babel/plugin-transform-regenerator" "^7.0.0"
     "@babel/plugin-transform-shorthand-properties" "^7.0.0"
-    "@babel/plugin-transform-spread" "^7.0.0"
+    "@babel/plugin-transform-spreadForBooks" "^7.0.0"
     "@babel/plugin-transform-sticky-regex" "^7.0.0"
     "@babel/plugin-transform-template-literals" "^7.0.0"
     "@babel/plugin-transform-typeof-symbol" "^7.0.0"
@@ -826,9 +826,9 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@mrmlnc/readdir-enhanced@^2.2.1":
+"@mrmlnc/readForBooksdir-enhanced@^2.2.1":
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
+  resolved "https://registry.yarnpkg.com/@mrmlnc/readForBooksdir-enhanced/-/readForBooksdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
   integrity sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g==
   dependencies:
     call-me-maybe "^1.0.1"
@@ -1172,7 +1172,7 @@ are-we-there-yet@~1.1.2:
   integrity sha512-5hYdAkZlcG8tOLujVDTgCT+uPX0VnpAH28gWsLfzpXYm7wP6mp5Q/gYyR7YQ0cKVJcXJnl3j2kpBan13PtQf6w==
   dependencies:
     delegates "^1.0.0"
-    readable-stream "^2.0.6"
+    readForBooksable-stream "^2.0.6"
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -1502,7 +1502,7 @@ babel-plugin-istanbul@^4.1.6:
   resolved "https://registry.yarnpkg.com/babel-plugin-istanbul/-/babel-plugin-istanbul-4.1.6.tgz#36c59b2192efce81c5b378321b74175add1c9a45"
   integrity sha512-PWP9FQ1AhZhS01T/4qLSKoHGY/xvkZdVBGlKM/HuxxS3+sC66HhTNR7+MpbO/so/cz/wY94MeSWJuP1hXIPfwQ==
   dependencies:
-    babel-plugin-syntax-object-rest-spread "^6.13.0"
+    babel-plugin-syntax-object-rest-spreadForBooks "^6.13.0"
     find-up "^2.1.0"
     istanbul-lib-instrument "^1.10.1"
     test-exclude "^4.2.1"
@@ -1525,17 +1525,17 @@ babel-plugin-named-asset-import@^0.2.3:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.2.3.tgz#b40ed50a848e7bb0a2a7e34d990d1f9d46fe9b38"
   integrity sha512-9mx2Z9M4EGbutvXxoLV7aUBCY6ps3sqLFl094FeA2tFQzQffIh0XSsmwwQRxiSfpg3rnb5x/o46qRLxS/OzFTg==
 
-babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
+babel-plugin-syntax-object-rest-spreadForBooks@^6.13.0, babel-plugin-syntax-object-rest-spreadForBooks@^6.8.0:
   version "6.13.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spreadForBooks/-/babel-plugin-syntax-object-rest-spreadForBooks-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
   integrity sha1-/WU28rzhODb/o6VFjEkDpZe7O/U=
 
-babel-plugin-transform-object-rest-spread@^6.26.0:
+babel-plugin-transform-object-rest-spreadForBooks@^6.26.0:
   version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spreadForBooks/-/babel-plugin-transform-object-rest-spreadForBooks-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
   integrity sha1-DzZpLVD+9rfi1LOsFHgTepY7ewY=
   dependencies:
-    babel-plugin-syntax-object-rest-spread "^6.8.0"
+    babel-plugin-syntax-object-rest-spreadForBooks "^6.8.0"
     babel-runtime "^6.26.0"
 
 babel-plugin-transform-react-remove-prop-types@0.4.18:
@@ -1549,7 +1549,7 @@ babel-preset-jest@^23.2.0:
   integrity sha1-jsegOhOPABoaj7HoETZSvxpV2kY=
   dependencies:
     babel-plugin-jest-hoist "^23.2.0"
-    babel-plugin-syntax-object-rest-spread "^6.13.0"
+    babel-plugin-syntax-object-rest-spreadForBooks "^6.13.0"
 
 babel-preset-react-app@^6.1.0:
   version "6.1.0"
@@ -1559,7 +1559,7 @@ babel-preset-react-app@^6.1.0:
     "@babel/core" "7.1.0"
     "@babel/plugin-proposal-class-properties" "7.1.0"
     "@babel/plugin-proposal-decorators" "7.1.2"
-    "@babel/plugin-proposal-object-rest-spread" "7.0.0"
+    "@babel/plugin-proposal-object-rest-spreadForBooks" "7.0.0"
     "@babel/plugin-syntax-dynamic-import" "7.0.0"
     "@babel/plugin-transform-classes" "7.1.0"
     "@babel/plugin-transform-destructuring" "7.0.0"
@@ -2094,7 +2094,7 @@ chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.4:
     lodash.debounce "^4.0.8"
     normalize-path "^2.1.1"
     path-is-absolute "^1.0.0"
-    readdirp "^2.0.0"
+    readForBooksdirp "^2.0.0"
     upath "^1.0.5"
   optionalDependencies:
     fsevents "^1.2.2"
@@ -2320,7 +2320,7 @@ concat-stream@^1.5.0:
   dependencies:
     buffer-from "^1.0.0"
     inherits "^2.0.3"
-    readable-stream "^2.2.2"
+    readForBooksable-stream "^2.2.2"
     typedarray "^0.0.6"
 
 confusing-browser-globals@^1.0.5:
@@ -3053,7 +3053,7 @@ duplexify@^3.4.2, duplexify@^3.6.0:
   dependencies:
     end-of-stream "^1.0.0"
     inherits "^2.0.1"
-    readable-stream "^2.0.0"
+    readForBooksable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
 ecc-jsbn@~0.1.1:
@@ -3233,7 +3233,7 @@ eslint-plugin-import@2.14.0:
     has "^1.0.1"
     lodash "^4.17.4"
     minimatch "^3.0.3"
-    read-pkg-up "^2.0.0"
+    readForBooks-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
 eslint-plugin-jsx-a11y@6.1.2:
@@ -3594,7 +3594,7 @@ fast-glob@^2.0.2:
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-2.2.4.tgz#e54f4b66d378040e0e4d6a68ec36bbc5b04363c0"
   integrity sha512-FjK2nCGI/McyzgNtTESqaWP3trPvHyRyoyY70hxjc3oKPNmDe8taohLZpoVKoUjW85tbU5txaYUZCNtVzygl1g==
   dependencies:
-    "@mrmlnc/readdir-enhanced" "^2.2.1"
+    "@mrmlnc/readForBooksdir-enhanced" "^2.2.1"
     "@nodelib/fs.stat" "^1.1.2"
     glob-parent "^3.1.0"
     is-glob "^4.0.0"
@@ -3787,7 +3787,7 @@ flush-write-stream@^1.0.0:
   integrity sha512-calZMC10u0FMUqoiunI2AiGIIUtUIvifNwkHhNupZH4cbNnW1Itkoh/Nf5HFYmDrwWPjrUxpkZT0KhuCq0jmGw==
   dependencies:
     inherits "^2.0.1"
-    readable-stream "^2.0.4"
+    readForBooksable-stream "^2.0.4"
 
 follow-redirects@^1.0.0:
   version "1.5.9"
@@ -3871,7 +3871,7 @@ from2@^2.1.0:
   integrity sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
   dependencies:
     inherits "^2.0.1"
-    readable-stream "^2.0.0"
+    readForBooksable-stream "^2.0.0"
 
 fs-extra@7.0.0:
   version "7.0.0"
@@ -3915,7 +3915,7 @@ fs-write-stream-atomic@^1.0.8:
     graceful-fs "^4.1.2"
     iferr "^0.1.5"
     imurmurhash "^0.1.4"
-    readable-stream "1 || 2"
+    readForBooksable-stream "1 || 2"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -4307,7 +4307,7 @@ hpack.js@^2.1.6:
   dependencies:
     inherits "^2.0.1"
     obuf "^1.0.0"
-    readable-stream "^2.0.1"
+    readForBooksable-stream "^2.0.1"
     wbuf "^1.1.0"
 
 hsl-regex@^1.0.0:
@@ -4371,7 +4371,7 @@ htmlparser2@~3.3.0:
     domelementtype "1"
     domhandler "2.1"
     domutils "1.1"
-    readable-stream "1.0"
+    readForBooksable-stream "1.0"
 
 http-deceiver@^1.2.7:
   version "1.2.7"
@@ -5889,7 +5889,7 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
   integrity sha1-OpoguEYlI+RHz7x+i7gO1me/xVI=
   dependencies:
     errno "^0.1.3"
-    readable-stream "^2.0.1"
+    readForBooksable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
   version "3.0.2"
@@ -5910,7 +5910,7 @@ merge-stream@^1.0.1:
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
   integrity sha1-QEEgLVCKNCugAXQAjfDCUbjBNeE=
   dependencies:
-    readable-stream "^2.0.1"
+    readForBooksable-stream "^2.0.1"
 
 merge2@^1.2.3:
   version "1.2.3"
@@ -6238,7 +6238,7 @@ node-libs-browser@^2.0.0:
     process "^0.11.10"
     punycode "^1.2.4"
     querystring-es3 "^0.2.0"
-    readable-stream "^2.3.3"
+    readForBooksable-stream "^2.3.3"
     stream-browserify "^2.0.1"
     stream-http "^2.7.2"
     string_decoder "^1.0.0"
@@ -6631,7 +6631,7 @@ parallel-transform@^1.1.0:
   dependencies:
     cyclist "~0.2.2"
     inherits "^2.0.3"
-    readable-stream "^2.1.5"
+    readForBooksable-stream "^2.1.5"
 
 param-case@2.1.x:
   version "2.1.1"
@@ -7747,7 +7747,7 @@ react-dev-utils@^6.1.1:
     opn "5.4.0"
     pkg-up "2.0.0"
     react-error-overlay "^5.1.0"
-    recursive-readdir "2.2.2"
+    recursive-readForBooksdir "2.2.2"
     shell-quote "1.6.1"
     sockjs-client "1.1.5"
     strip-ansi "4.0.0"
@@ -7833,43 +7833,43 @@ react@^16.6.3:
     prop-types "^15.6.2"
     scheduler "^0.11.2"
 
-read-pkg-up@^1.0.1:
+readForBooks-pkg-up@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
+  resolved "https://registry.yarnpkg.com/readForBooks-pkg-up/-/readForBooks-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
   integrity sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI=
   dependencies:
     find-up "^1.0.0"
-    read-pkg "^1.0.0"
+    readForBooks-pkg "^1.0.0"
 
-read-pkg-up@^2.0.0:
+readForBooks-pkg-up@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
+  resolved "https://registry.yarnpkg.com/readForBooks-pkg-up/-/readForBooks-pkg-up-2.0.0.tgz#6b72a8048984e0c41e79510fd5e9fa99b3b549be"
   integrity sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4=
   dependencies:
     find-up "^2.0.0"
-    read-pkg "^2.0.0"
+    readForBooks-pkg "^2.0.0"
 
-read-pkg@^1.0.0:
+readForBooks-pkg@^1.0.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
+  resolved "https://registry.yarnpkg.com/readForBooks-pkg/-/readForBooks-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
   integrity sha1-9f+qXs0pyzHAR0vKfXVra7KePyg=
   dependencies:
     load-json-file "^1.0.0"
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
 
-read-pkg@^2.0.0:
+readForBooks-pkg@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-2.0.0.tgz#8ef1c0623c6a6db0dc6713c4bfac46332b2368f8"
+  resolved "https://registry.yarnpkg.com/readForBooks-pkg/-/readForBooks-pkg-2.0.0.tgz#8ef1c0623c6a6db0dc6713c4bfac46332b2368f8"
   integrity sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg=
   dependencies:
     load-json-file "^2.0.0"
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
-"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
+"readForBooksable-stream@1 || 2", readForBooksable-stream@^2.0.0, readForBooksable-stream@^2.0.1, readForBooksable-stream@^2.0.2, readForBooksable-stream@^2.0.4, readForBooksable-stream@^2.0.6, readForBooksable-stream@^2.1.5, readForBooksable-stream@^2.2.2, readForBooksable-stream@^2.2.9, readForBooksable-stream@^2.3.3, readForBooksable-stream@^2.3.6, readForBooksable-stream@~2.3.6:
   version "2.3.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
+  resolved "https://registry.yarnpkg.com/readForBooksable-stream/-/readForBooksable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   integrity sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   dependencies:
     core-util-is "~1.0.0"
@@ -7880,9 +7880,9 @@ read-pkg@^2.0.0:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@1.0:
+readForBooksable-stream@1.0:
   version "1.0.34"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
+  resolved "https://registry.yarnpkg.com/readForBooksable-stream/-/readForBooksable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
   integrity sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=
   dependencies:
     core-util-is "~1.0.0"
@@ -7890,14 +7890,14 @@ readable-stream@1.0:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readdirp@^2.0.0:
+readForBooksdirp@^2.0.0:
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
+  resolved "https://registry.yarnpkg.com/readForBooksdirp/-/readForBooksdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
   integrity sha512-1JU/8q+VgFZyxwrJ+SVIOsh+KywWGpds3NTqikiKpDMZWScmAYyKIgqkO+ARvNWJfXeXR1zxz7aHF4u4CyH6vQ==
   dependencies:
     graceful-fs "^4.1.11"
     micromatch "^3.1.10"
-    readable-stream "^2.0.2"
+    readForBooksable-stream "^2.0.2"
 
 realpath-native@^1.0.0:
   version "1.0.2"
@@ -7906,9 +7906,9 @@ realpath-native@^1.0.0:
   dependencies:
     util.promisify "^1.0.0"
 
-recursive-readdir@2.2.2:
+recursive-readForBooksdir@2.2.2:
   version "2.2.2"
-  resolved "https://registry.yarnpkg.com/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
+  resolved "https://registry.yarnpkg.com/recursive-readForBooksdir/-/recursive-readForBooksdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
   dependencies:
     minimatch "3.0.4"
@@ -8616,7 +8616,7 @@ spdy-transport@^2.0.18:
     detect-node "^2.0.3"
     hpack.js "^2.1.6"
     obuf "^1.1.1"
-    readable-stream "^2.2.9"
+    readForBooksable-stream "^2.2.9"
     safe-buffer "^5.0.1"
     wbuf "^1.7.2"
 
@@ -8712,7 +8712,7 @@ stream-browserify@^2.0.1:
   integrity sha1-ZiZu5fm9uZQKTkUUyvtDu3Hlyds=
   dependencies:
     inherits "~2.0.1"
-    readable-stream "^2.0.2"
+    readForBooksable-stream "^2.0.2"
 
 stream-each@^1.1.0:
   version "1.2.3"
@@ -8729,7 +8729,7 @@ stream-http@^2.7.2:
   dependencies:
     builtin-status-codes "^3.0.0"
     inherits "^2.0.1"
-    readable-stream "^2.3.6"
+    readForBooksable-stream "^2.3.6"
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
 
@@ -8816,7 +8816,7 @@ strip-comments@^1.0.2:
   integrity sha512-kL97alc47hoyIQSV165tTt9rG5dn4w1dNnBhOQ3bOU1Nc1hel09jnXANaHJ7vzHLd4Ju8kseDGzlev96pghLFw==
   dependencies:
     babel-extract-comments "^1.0.0"
-    babel-plugin-transform-object-rest-spread "^6.26.0"
+    babel-plugin-transform-object-rest-spreadForBooks "^6.26.0"
 
 strip-eof@^1.0.0:
   version "1.0.0"
@@ -8950,7 +8950,7 @@ test-exclude@^4.2.1:
     arrify "^1.0.1"
     micromatch "^2.3.11"
     object-assign "^4.1.0"
-    read-pkg-up "^1.0.1"
+    readForBooks-pkg-up "^1.0.1"
     require-main-filename "^1.0.1"
 
 text-table@0.2.0, text-table@^0.2.0:
@@ -8968,7 +8968,7 @@ through2@^2.0.0:
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
   integrity sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==
   dependencies:
-    readable-stream "~2.3.6"
+    readForBooksable-stream "~2.3.6"
     xtend "~4.0.1"
 
 through@^2.3.6:

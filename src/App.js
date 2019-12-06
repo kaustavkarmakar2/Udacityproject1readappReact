@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Shelves from "./components/Shelves";
-import Search from "./components/Search";
+import HeaderForBooks from "./components/HeaderForBooks";
+import BookShelf from "./components/ShelvesforBooks";
+import SearchForBooks from "./components/Search";
 
 import SearchButton from "./components/SearchButton";
 import { BrowserRouter, Route } from "react-router-dom";
@@ -52,9 +52,9 @@ class BooksApp extends React.Component {
                 <p className="loading-message">loading</p>
               ) : (
                 <div className="list-books">
-                  <Header />
-                  <Shelves
-                    allBooks={this.state.books}
+                  <HeaderForBooks />
+                  <BookShelf
+                    allBooksForSheveles={this.state.books}
                     changeShelf={this.changeBookShelves}
                   />
                   <SearchButton />
@@ -62,7 +62,7 @@ class BooksApp extends React.Component {
               )
             }
           />
-          <Route path="/search" render={() => <Search />} />
+          <Route path="/search" render={() => <SearchForBooks />} />
         </div>
       </BrowserRouter>
     );

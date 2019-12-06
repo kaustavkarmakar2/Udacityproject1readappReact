@@ -4,7 +4,11 @@ import React from "react";
 class List extends React.Component {
   
   render() {
-    
+    // const allBooksItem = this.props.allBooksItem;
+    // // const currentlyReading = allBooks.filter(book => book.shelf==='currentlyReading' );
+    // const wantToReadItem= allBooksItem.filter(book => book.shelf==='wantToRead');
+    // const readItem = allBooksItem.filter(book => book.shelf ==='read');
+    // // const none = allBooks.filter(book => book.shelf ==='none');
     return (
       
       <React.Fragment>
@@ -28,11 +32,11 @@ class List extends React.Component {
                             
                             <div className="book-shelf-changer">
                                 <select value={book.shelf} onChange={e=>this.props.changeShelf(book,e.target.value)}>
-                                <option value="move" disabled>Move to...</option>
-                                <option value="currentlyReading">Currently Reading</option>
-                                <option value="wantToRead">Want to Read</option>
-                                <option value="read">Read</option>
-                                <option value="none">None</option>
+                                <option  value="move" disabled>Move to...</option>
+                                <option  value="currentlyReading">want to open</option>
+                                <option  value="wantToRead">Want to readForBooks</option>
+                                <option  value="read">readForBooks</option>
+                                <option  value="none">None</option>
                                 </select>
                             </div>
                             </div>

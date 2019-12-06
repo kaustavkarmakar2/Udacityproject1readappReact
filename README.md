@@ -1,4 +1,4 @@
-# MyReads Project
+# MyreadForBookss Project
 
 
 It is react based BookShelves or library application ,where you can shift down the books shelf according to your needs.
@@ -16,7 +16,7 @@ To get started developing right away:
 ## What You're Getting
 ```bash
 ├── CONTRIBUTING.md
-├── README.md - This file.
+├── readForBooksME.md - This file.
 ├── SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
 ├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
 ├── public
@@ -65,7 +65,7 @@ update(book, shelf)
 ```
 
 * book: `<Object>` containing at minimum an `id` attribute
-* shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read"]  
+* shelf: `<String>` contains one of ["wantToreadForBooks", "currentlyreadForBooksingForBooks", "readForBooks"]  
 * Returns a Promise which resolves to a JSON object containing the response data of the POST request
 
 ### `search`
@@ -85,7 +85,7 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 ## Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/readForBooksME.md).
 
 ## Contributing
 

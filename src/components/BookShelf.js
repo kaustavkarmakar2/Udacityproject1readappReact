@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Shelf extends React.Component{
+class BookShelf extends React.Component{
     render(){
         const shelfBooks = this.props.books;
         return(
@@ -25,9 +25,9 @@ class Shelf extends React.Component{
                             <div className="book-shelf-changer">
                                 <select value={book.shelf} onChange={e=>this.props.changeShelf(book,e.target.value)}>
                                 <option value="move" disabled>Move to...</option>
-                                <option value="currentlyReading">Currently Reading</option>
-                                <option value="wantToRead">Want to Read</option>
-                                <option value="read">Read</option>
+                                <option value="currentlyReading">Currently read</option>
+                                <option value="wantToRead">Want to read</option>
+                                <option value="read">read</option>
                                 <option value="none">None</option>
                                 </select>
                             </div>
@@ -44,4 +44,4 @@ class Shelf extends React.Component{
     }
 
 }
-export default Shelf;
+export default BookShelf;
