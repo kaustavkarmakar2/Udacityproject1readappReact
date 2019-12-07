@@ -4,7 +4,7 @@ import * as BooksAPI from "../BooksAPI";
 import throttle from "lodash/throttle";
 import List from "./list-books";
 
-class Search extends React.Component {
+class SearchForBooks extends React.Component {
   state = {
     books: [],
     query: ""
@@ -89,4 +89,4 @@ class Search extends React.Component {
     );
   }
 }
-export default Search;
+export default SearchForBooks;
