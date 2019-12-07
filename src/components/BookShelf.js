@@ -2,13 +2,13 @@ import React from 'react';
 
 class BookShelf extends React.Component{
     render(){
-        const shelfBooks = this.props.books;
+        const shelfForBooks = this.props.books;
         return(
         <div className="bookshelf">
             <h2 className="bookshelf-title">{this.props.title}</h2>
             <div className="bookshelf-books">
                 <ol className="books-grid">
-                    {shelfBooks.map(book =>(
+                    {shelfForBooks.map(book =>(
                         <li key={book.id}>
                         <div className="book">
                             <div className="book-top">
@@ -27,7 +27,7 @@ class BookShelf extends React.Component{
                                 <option value="move" disabled>Move to...</option>
                                 <option value="currentlyReading">Currently read</option>
                                 <option value="wantToRead">Want to read</option>
-                                <option value="read">read</option>
+                                <option value="read">readForBooks</option>
                                 <option value="none">None</option>
                                 </select>
                             </div>

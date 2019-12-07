@@ -4,11 +4,7 @@ import React from "react";
 class List extends React.Component {
   
   render() {
-    // const allBooksItem = this.props.allBooksItem;
-    // // const currentlyReading = allBooks.filter(book => book.shelf==='currentlyReading' );
-    // const wantToReadItem= allBooksItem.filter(book => book.shelf==='wantToRead');
-    // const readItem = allBooksItem.filter(book => book.shelf ==='read');
-    // // const none = allBooks.filter(book => book.shelf ==='none');
+    
     return (
       
       <React.Fragment>

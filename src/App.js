@@ -24,9 +24,12 @@ class BooksApp extends React.Component {
     this.setState({ showSearchPage: state });
   };
   componentDidMount = () => {
+    this.fetchInfo();
+  };
+  fetchInfo=()=>{
     BooksAPI.getAll().then(resp => this.setState({ books: resp }));
   };
-  changeBookShelves = (book, shelf) => {
+  changeBookShelvesForBooks = (book, shelf) => {
     console.log("Hiii", this);
     BooksAPI.update(book, shelf);
     this.setState({
@@ -38,7 +41,9 @@ class BooksApp extends React.Component {
       })
     });
   };
-
+  handleSearchBackClick = () => {
+    this.fetchInfo();
+  };
   render() {
     const { isLoading } = this.state;
     return (
@@ -55,14 +60,14 @@ class BooksApp extends React.Component {
                   <HeaderForBooks />
                   <BookShelf
                     allBooksForSheveles={this.state.books}
-                    changeShelf={this.changeBookShelves}
+                    changeShelf={this.changeBookShelvesForBooks}
                   />
                   <SearchButton />
                 </div>
               )
             }
           />
-          <Route path="/search" render={() => <SearchForBooks />} />
+          <Route path="/search" render={() => <SearchForBooks onSearchBackClick={this.handleSearchBackClick}/>} />
         </div>
       </BrowserRouter>
     );

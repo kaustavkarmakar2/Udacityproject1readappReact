@@ -52,13 +52,18 @@ class SearchForBooks extends React.Component {
       })
     });
   };
+  handleBackClick = ()=>{
+    this.props.onSearchBackClick();
+    window.location.href= '/';
+
+  };
 
   render() {
     const { books, query } = this.state;
     return (
       <div className="search-books">
         <div className="search-books-bar">
-          <Link to="/">
+          <Link to="/" onClick={this.handleBackClick}>
             <button className="close-search">Close</button>
           </Link>
           <div className="search-books-input-wrapper">
