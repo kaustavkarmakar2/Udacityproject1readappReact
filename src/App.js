@@ -26,7 +26,7 @@ class BooksApp extends React.Component {
   componentDidMount = () => {
     this.fetchInfo();
   };
-  fetchInfo=()=>{
+  fetchInfo = () => {
     BooksAPI.getAll().then(resp => this.setState({ books: resp }));
   };
   changeBookShelvesForBooks = (book, shelf) => {
@@ -67,7 +67,12 @@ class BooksApp extends React.Component {
               )
             }
           />
-          <Route path="/search" render={() => <SearchForBooks onSearchBackClick={this.handleSearchBackClick}/>} />
+          <Route
+            path="/search"
+            render={() => (
+              <SearchForBooks onSearchBackClick={this.handleSearchBackClick} />
+            )}
+          />
         </div>
       </BrowserRouter>
     );

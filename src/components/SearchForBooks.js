@@ -11,15 +11,14 @@ class SearchForBooks extends React.Component {
   };
 
   execSearched = query => {
-    
     const search = (this.currentSearched = BooksAPI.search(query).then(
       books => {
-        if (this.currentSearched !== search ) {
-          this.setState({ books })
-          console.log("HHHHH")
-        }
+        //  if (this.currentSearched !== search && this.books.imageLinks.thumbnail !== undefined)this.setState({books});
+
         //setState only for the current searched result
         if (this.currentSearched === search) this.setState({ books });
+
+        if (this.currentSearched !== undefined) this.setState({ books: books });
       }
     ));
   };
@@ -39,7 +38,7 @@ class SearchForBooks extends React.Component {
       loading: false,
       trailing: true
     });
-  };
+  }
   changeBookShelves = (book, shelf) => {
     console.log("Hiii", this);
     BooksAPI.update(book, shelf);
@@ -52,10 +51,9 @@ class SearchForBooks extends React.Component {
       })
     });
   };
-  handleBackClick = ()=>{
+  handleBackClick = () => {
     this.props.onSearchBackClick();
-    window.location.href= '/';
-
+    window.location.href = "/";
   };
 
   render() {
@@ -77,17 +75,21 @@ class SearchForBooks extends React.Component {
           </div>
         </div>
         <div className="search-books-results">
-          
-          <div style={{display: 'flex'}}>
-          <List 
-            style={{width:500,height:500,paddingLeft:10,paddingRight:10}}
-            // BookSearchAPI is giving inconsistent results
-            // Please see
-            
-            books={books ? (books.error === undefined   ? books : []) : []}
-            onBookShelfChange={this.props.onBookShelfChange}
-            changeShelf={this.changeBookShelves}
-          />
+          <div style={{ display: "flex" }}>
+            <List
+              style={{
+                width: 500,
+                height: 500,
+                paddingLeft: 10,
+                paddingRight: 10
+              }}
+              // BookSearchAPI is giving inconsistent results
+              // Please see
+
+              books={books ? (books.error === undefined ? books : []) : []}
+              onBookShelfChange={this.props.onBookShelfChange}
+              changeShelf={this.changeBookShelves}
+            />
           </div>
         </div>
       </div>
