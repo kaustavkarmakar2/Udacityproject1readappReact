@@ -19,17 +19,13 @@ class List extends React.Component {
           <div className="bookshelf-books">
             <ol className="books-grid">
               {this.props.books.map(book => {
-                console.log(book)
+                
                 let imageURL
                 if (book !== undefined) {
-                  imageURL = book.imageLinks.thumbnail 
-                     ? book.imageLinks.thumbnail ||[]
+                  imageURL = book.imageLinks
+                     ? book.imageLinks.thumbnail 
                      : "http://via.placeholder.com/123x98";
-              }
-
-               
-
-                return (
+              }return (
 
                 <li key={book.id}>
                   <div className="book">
@@ -63,10 +59,11 @@ class List extends React.Component {
                           <option value="none">None</option>
                         </select>
                       </div>
+                      Ï
                     </div>
                     <div className="book-title">{book.title}</div>
                     <div className="book-authors">{book.authors}</div>
-                    {console.log("books", this.props.image)}
+                    
                   </div>
                 </li> 
               )})}
