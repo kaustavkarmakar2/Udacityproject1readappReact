@@ -33,10 +33,14 @@ class ShelvesForBooks extends React.Component {
               title={shelves[shelf][0]}
               books={this.state.books}
               onShelfChange={() => {
-                this.changeShelf(shelf);
+                this.props.changeShelf(shelf);
               }}
             />
           ))}
+          <div>
+       
+      
+     </div> 
         </div>
       </div>
     );
