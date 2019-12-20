@@ -5,10 +5,7 @@ class List extends React.Component {
     book: [],
     query: ""
   };
-  image = book => {
-    if (book.imageLinks && book.imageLinks.thumbnail !== undefined)
-      this.setState({ book: book });
-  };
+  
 
   render() {
     
@@ -23,8 +20,8 @@ class List extends React.Component {
                 let imageURL
                 if (book !== undefined) {
                   imageURL = book.imageLinks
-                     ? book.imageLinks.thumbnail 
-                     : "http://via.placeholder.com/123x98";
+                    ? book.imageLinks.thumbnail 
+                    : "http://via.placeholder.com/123x98";
               }return (
 
                 <li key={book.id}>

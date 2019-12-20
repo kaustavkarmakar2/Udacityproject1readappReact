@@ -13,12 +13,7 @@ class SearchForBooks extends React.Component {
   execSearched = query => {
     const search = (this.currentSearched = BooksAPI.search(query).then(
       books => {
-        //  if (this.currentSearched !== search && this.books.imageLinks.thumbnail !== undefined)this.setState({books});
-
-        //setState only for the current searched result
-        if (this.currentSearched === search) this.setState({ books });
-
-        if (this.currentSearched !== undefined) this.setState({ books: books });
+        if (this.currentSearched === search) this.setState({ books })
       }
     ));
   };
